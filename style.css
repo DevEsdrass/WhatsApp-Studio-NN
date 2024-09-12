@@ -177,33 +177,33 @@ footer a {
         font-size: 0.9em; /* Ajusta o tamanho da fonte no botão */
     }
 
-    #button-1 {
+    #button-1{
+        position: relative;
+        top: 0;
+        left: 0 ;
+        width: 100%;
+        margin: 10 0;
+
+    }
+
+    /*#button-1 
         position: absolute;
         top: 5%; /* Ajuste conforme necessário para alinhar com o dedo */
-        left: 85%; /* Ajuste conforme necessário para alinhar horizontalmente */
-        width: auto;
+        /*left: 85%; /* Ajuste conforme necessário para alinhar horizontalmente */
+       /* width: auto;
         transform: translate(-50%, -50%); /* Ajusta o alinhamento */
-    }
-
-    #button-2 {
-        position: absolute;
-        top: 40%; /* Ajuste conforme necessário para alinhar com o dedo */
-        left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
-        width: auto;
-        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
-        margin: 10px;
-    }
     
-    #button-3 {
-        position: absolute;
-        top: 10%; /* Ajuste conforme necessário para alinhar com o dedo */
-        left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
-        width: auto;
-        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
-        margin: 10px;
-    }
 
-    .between-buttons {
-        width: 100%; /* Ajusta o tamanho da imagem em telas menores */
+        #button-2, #button-3 {
+            position: relative;
+            top: 0; /* Remove o posicionamento absoluto */
+            left: 0; /* Remove o posicionamento absoluto */
+            width: 100%; /* Deixe os botões ocuparem a largura da tela */
+            margin: 10px 0; /* Espaçamento entre os botões */
+        }
+    
+        .between-buttons {
+            width: 100%; /* Ajusta o tamanho da imagem em telas menores */
+            margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+        }
     }
-}
