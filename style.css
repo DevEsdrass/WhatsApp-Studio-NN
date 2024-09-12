@@ -179,7 +179,7 @@ footer a {
 
     /* Alinhamento específico do botão 1 com a imagem */
     #button-1 {
-        width: 100%; /* Deixe o botão ocupar a largura da tela */
+        width: 80%; /* Deixe o botão ocupar a largura da tela */
         margin: 10px 0; /* Espaçamento */
     }
 
@@ -198,8 +198,9 @@ footer a {
 
     /* Alinhamento dos botões 2 e 3 */
     #button-2, #button-3 {
-        width: auto; /* Deixe o botão ocupar sua largura natural */
+        width: 100%; /* Deixe o botão ocupar sua largura natural */
         margin: 10px 0; /* Espaçamento entre os botões */
+
     }
 }
 
