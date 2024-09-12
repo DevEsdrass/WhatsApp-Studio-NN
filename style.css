@@ -233,7 +233,7 @@ body {
 /* Responsividade */
 @media (max-width: 480px) {
     .profile img {
-        width: 200px; /* Ajusta o tamanho da imagem em telas menores */
+        width: 150px; /* Ajusta o tamanho da imagem em telas menores */
     }
 
     .profile h1 {
