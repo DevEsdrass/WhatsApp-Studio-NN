@@ -177,7 +177,33 @@ footer a {
         font-size: 0.9em; /* Ajusta o tamanho da fonte no botão */
     }
 
+    #button-1 {
+        position: absolute;
+        top: 5%; /* Ajuste conforme necessário para alinhar com o dedo */
+        left: 85%; /* Ajuste conforme necessário para alinhar horizontalmente */
+        width: auto;
+        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+    }
+
+    #button-2 {
+        position: absolute;
+        top: 40%; /* Ajuste conforme necessário para alinhar com o dedo */
+        left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
+        width: auto;
+        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+        margin: 10px;
+    }
+    
+    #button-3 {
+        position: absolute;
+        top: 10%; /* Ajuste conforme necessário para alinhar com o dedo */
+        left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
+        width: auto;
+        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+        margin: 10px;
+    }
+
     .between-buttons {
-        width: 80%; /* Ajusta o tamanho da imagem em telas menores */
+        width: 100%; /* Ajusta o tamanho da imagem em telas menores */
     }
 }
