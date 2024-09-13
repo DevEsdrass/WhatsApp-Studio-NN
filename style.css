@@ -59,8 +59,7 @@ body {
 .profile h1 {
     font-size: 3.5em;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra leve no texto */
 }
 
@@ -190,7 +189,7 @@ footer a {
     }
 
     .profile h2 {
-        font.size: 1.2em;
+        font.size: 15px;
         white-space: nowrap;
     }
 
