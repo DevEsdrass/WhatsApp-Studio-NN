@@ -184,7 +184,8 @@ footer a {
     }
 
     .profile h1 {
-        font-size: 1.5em; /* Reduz o título em telas menores */
+        font-size: 1.2em; /* Reduz o título em telas menores */
+        
     }
 
     .whatsapp a {
