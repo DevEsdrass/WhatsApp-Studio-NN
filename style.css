@@ -205,7 +205,7 @@ footer a {
         text-align: justify;
         word-spacing: 0; /* Remove qualquer espaçamento extra entre palavras */
         line-height: 1.5; /* Ajusta a altura das linhas para melhor legibilidade */
-        hyphens: auto; /* Permite a quebra de palavras conforme necessário */
+        /*hyphens: auto; /* Permite a quebra de palavras conforme necessário */
 
     }
 
