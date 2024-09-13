@@ -198,10 +198,13 @@ footer a {
     }
 
     .profile p {
-        font-size: 15px;
-        margin-top:40px;
+        margin: 40px;
         padding: 0;
-        justify-content: center;
+        font-size: 15px;
+        line-height: normal;
+        font-size: inherit;
+        text-align: justify;
+        font-weight: normal;
 
     }
 
