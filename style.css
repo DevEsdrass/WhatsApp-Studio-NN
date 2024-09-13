@@ -184,9 +184,14 @@ footer a {
     }
 
     .profile h1 {
-        font-size: 1.2em; /* Reduz o título em telas menores */
+        font-size: 2em; /* Reduz o título em telas menores */
         white-space: nowrap;
         
+    }
+
+    .profile h2 {
+        font.size: 1.2em;
+        white-space: nowrap;
     }
 
     .whatsapp a {
