@@ -184,11 +184,13 @@ footer a {
     .profile h1 {
         font-size: 2.5em; /* Reduz o título em telas menores */
         white-space: nowrap;
+        margin: 0;
+        padding:0;
         
     }
 
     .profile h2 {
-        font.size: 5px;
+        font-size: 5px;
         white-space: nowrap;
     }
 
