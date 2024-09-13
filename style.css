@@ -57,12 +57,15 @@ body {
 }
 
 .profile h1 {
-    font-size: 3.5em;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 42px;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra leve no texto */
 }
 
 .profile h2{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 42px;
     text-transform: uppercase;
 }
 
@@ -179,10 +182,12 @@ footer a {
 @media (max-width: 480px) {
     .profile img {
         width: 200px; /* Ajusta o tamanho da imagem em telas menores */
+        margin:0;
+        padding:0;
     }
 
     .profile h1 {
-        font-size: 2.5em; /* Reduz o título em telas menores */
+        font-size: 42px; /* Reduz o título em telas menores */
         white-space: nowrap;
         margin: 0;
         padding:0;
@@ -190,8 +195,15 @@ footer a {
     }
 
     .profile h2 {
-        font-size: 1.2em;
+        margin:0;
+        padding:0;
+        font-size: 22px;
         white-space: nowrap;
+    }
+
+    .profile p {
+        margin-top:10px;
+
     }
 
     .whatsapp a {
