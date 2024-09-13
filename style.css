@@ -198,6 +198,7 @@ footer a {
     }
 
     .profile p {
+        font-size: 15px;
         margin-top:40px;
         padding: 0;
         justify-content: center;
