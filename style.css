@@ -33,7 +33,6 @@ body {
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     transform: rotateX(0) rotateY(0); /* Posição inicial */
     text-align: center;
-    z-index: 1; /* Garante que o conteúdo fique acima do fundo */
 }
 
 
@@ -43,15 +42,14 @@ body {
     position: relative;
 }
 
+
+
 .profile img {
     width: 200px;
-    border-radius: 30%;
     margin-bottom: 20px;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6); /* Sombra para profundidade */
     transition: transform 0.3s ease-in-out;
     transform: translateZ(50px); /* Imagem levemente à frente */
 }
-
 .profile img:hover {
     transform: translateZ(70px) scale(1.1); /* Aumenta a imagem ao passar o mouse */
 }
@@ -191,6 +189,7 @@ footer a {
         white-space: nowrap;
         margin: 0;
         padding:0;
+        justify-content: center;
         
     }
 
@@ -199,10 +198,12 @@ footer a {
         padding:0;
         font-size: 22px;
         white-space: nowrap;
+        justify-content: center;
     }
 
     .profile p {
         margin-top:10px;
+        justify-content: center;
 
     }
 
