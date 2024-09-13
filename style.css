@@ -48,7 +48,8 @@ body {
     width: 200px;
     margin-bottom: 0;
     transition: transform 0.3s ease-in-out;
-    transform: translateZ(50px); /* Imagem levemente à frente */
+   /* transform: translateZ(50px); /* Imagem levemente à frente */
+    transform: translateZ(70px) scale(1.1); /* Aumenta a imagem ao passar o mouse */
 }
 .profile img:hover {
     transform: translateZ(70px) scale(1.1); /* Aumenta a imagem ao passar o mouse */
