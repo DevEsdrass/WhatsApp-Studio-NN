@@ -181,7 +181,7 @@ footer a {
     }
 
     .profile h1 {
-        font-size: 42px; /* Reduz o título em telas menores */
+        font-size: 26px; /* Reduz o título em telas menores */
         white-space: nowrap;
         margin: 0;
         padding:0;
