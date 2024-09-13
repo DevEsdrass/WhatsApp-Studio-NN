@@ -118,6 +118,12 @@ body {
     width: 300px;
     border-radius: 30%;
 }
+
+#cursos{
+    width: 500px;
+    margin-bottom: 120px;
+
+}
 /* Imagens entre os botões */
 .between-buttons {
     display: block;
@@ -137,17 +143,17 @@ body {
 }
 #button-2 {
     position: absolute;
-    top: 55%; /* Ajuste conforme necessário para alinhar com o dedo */
-    left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
+    top: 55%; 
+    left: 50%; 
     width: auto;
-    transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+    transform: translate(-50%, -50%); 
     margin: 10px;
 }
 
 #button-3 {
     position: absolute;
-    top: 101%; /* Ajuste conforme necessário para alinhar com o dedo */
-    left: 50%; /* Ajuste conforme necessário para alinhar horizontalmente */
+    top: 101%; 
+    left: 50%; 
     width: auto;
     transform: translate(-50%, -50%); /* Ajusta o alinhamento */
     margin: 10px;
@@ -194,13 +200,6 @@ footer a {
         transform: translate(-50%, -50%); 
     }
    
-    /* Alinhamento específico do botão 1 com a imagem */
-    /*#button-1 {
-        width: 80%; /* Deixe o botão ocupar a largura da tela */
-       /* margin: 10px 0; /* Espaçamento */
-    
-
-    /* Ajuste para botões 2 e 3, para que fiquem logo abaixo das suas respectivas imagens */
     .whatsapp {
         display: flex;
         flex-direction: column; /* Coloca a imagem e o botão em uma coluna */
@@ -210,7 +209,7 @@ footer a {
 
     .between-buttons {
         width: 100%; /* Ajusta o tamanho da imagem em telas menores */
-        margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+        margin-bottom: 20px; /* Espaçamento abaixo da imagem */
     }
 
     
