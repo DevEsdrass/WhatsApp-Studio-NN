@@ -185,6 +185,7 @@ footer a {
 
     .profile h1 {
         font-size: 1.2em; /* Reduz o título em telas menores */
+        white-space: nowrap;
         
     }
 
