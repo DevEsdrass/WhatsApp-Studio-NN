@@ -46,7 +46,7 @@ body {
 
 .profile img {
     width: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     transition: transform 0.3s ease-in-out;
     transform: translateZ(50px); /* Imagem levemente à frente */
 }
@@ -176,7 +176,7 @@ footer a {
 
     .profile img {
         width: 200px; /* Ajusta o tamanho da imagem em telas menores */
-        margin: -5px;
+        margin-bottom: 0;
         padding:0;
     }
 
@@ -198,7 +198,7 @@ footer a {
     }
 
     .profile p {
-        margin: 40px;
+        margin-top: 40px;
         padding: 0;
         font-size: 15px;
         line-height: normal;
