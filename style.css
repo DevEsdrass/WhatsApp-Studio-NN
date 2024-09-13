@@ -177,11 +177,19 @@ footer a {
         font-size: 0.9em; /* Ajusta o tamanho da fonte no botão */
     }
 
-    /* Alinhamento específico do botão 1 com a imagem */
-    #button-1 {
-        width: 80%; /* Deixe o botão ocupar a largura da tela */
-        margin: 10px 0; /* Espaçamento */
+      #button-1 {
+        position: absolute;
+        top: 5%; /* Ajuste conforme necessário para alinhar com o dedo */
+        left: 85%; /* Ajuste conforme necessário para alinhar horizontalmente*/ 
+        width: auto;
+        transform: translate(-50%, -50%); 
     }
+   
+    /* Alinhamento específico do botão 1 com a imagem */
+    /*#button-1 {
+        width: 80%; /* Deixe o botão ocupar a largura da tela */
+       /* margin: 10px 0; /* Espaçamento */
+    
 
     /* Ajuste para botões 2 e 3, para que fiquem logo abaixo das suas respectivas imagens */
     .whatsapp {
@@ -206,9 +214,4 @@ footer a {
 
 
 
-    /*#button-1 
-        position: absolute;
-        top: 5%; /* Ajuste conforme necessário para alinhar com o dedo */
-        /*left: 85%; /* Ajuste conforme necessário para alinhar horizontalmente */
-       /* width: auto;
-        transform: translate(-50%, -50%); /* Ajusta o alinhamento */
+ 
