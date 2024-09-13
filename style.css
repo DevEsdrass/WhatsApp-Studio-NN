@@ -58,9 +58,14 @@ body {
 
 .profile h1 {
     font-size: 3.5em;
+    text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra leve no texto */
+}
+
+.profile h2{
+    text-transform: uppercase;
 }
 
 .profile p {
@@ -173,7 +178,7 @@ footer a {
     }
 
     .profile h1 {
-        font-size: 1.8em; /* Reduz o título em telas menores */
+        font-size: 2.5em; /* Reduz o título em telas menores */
     }
 
     .whatsapp a {
