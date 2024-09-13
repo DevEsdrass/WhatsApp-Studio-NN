@@ -178,6 +178,13 @@ footer a {
 
 /* Responsividade */
 @media (max-width: 480px) {
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .profile img {
         width: 200px; /* Ajusta o tamanho da imagem em telas menores */
         margin:0;
@@ -185,7 +192,7 @@ footer a {
     }
 
     .profile h1 {
-        font-size: 42px; /* Reduz o título em telas menores */
+        font-size: 22px; /* Reduz o título em telas menores */
         white-space: nowrap;
         margin: 0;
         padding:0;
@@ -203,6 +210,7 @@ footer a {
 
     .profile p {
         margin-top:50px;
+        padding: 0;
         justify-content: center;
 
     }
