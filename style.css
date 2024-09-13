@@ -46,7 +46,7 @@ body {
 
 .profile img {
     width: 200px;
-    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5); /* Sombra para profundidade na imagem */
+    border-radius: 30%;
     margin-bottom: 20px;
     transition: transform 0.3s ease-in-out;
     transform: translateZ(50px); /* Imagem levemente à frente */
@@ -57,17 +57,22 @@ body {
 }
 
 .profile h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra leve no texto */
 }
 
 .profile p {
-    font-size: 1.1em;
-    margin: 5px 0;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    font-size: inherit;
+    text-align: left;
+    font-weight: normal;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Sombra leve nas descrições */
 }
+
 
 /* Botões do WhatsApp */
 .whatsapp-buttons {
@@ -201,6 +206,10 @@ footer a {
     .between-buttons {
         width: 100%; /* Ajusta o tamanho da imagem em telas menores */
         margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+    }
+
+    #button-2{
+        top: 50%;
     }
 
     /* Alinhamento dos botões 2 e 3 */
